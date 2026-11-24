@@ -1,0 +1,248 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600;700&display=swap" rel="stylesheet">
+<head>
+    
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Yuyu:wght@400&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosso Cantinho </title>
+<link href="https://fonts.googleapis.com/css2?family=Love+Light&display=swap" rel="stylesheet">
+</head>
+<body>
+    <canvas id="particleCanvas"></canvas>
+    <div id="liquidEther"></div>
+    <div id="telaSenha" class="tela-senha">
+        <div class="declaracoes-laterais esquerda">
+   <span>Eu te amo</span>
+<span>I love you</span>
+<span>Je t'aime</span>
+<span>Ti amo</span>
+<span>Te quiero</span>
+<span>Ich liebe dich</span>
+<span>愛してる</span>
+<span>사랑해</span>
+<span>Amo-te</span>
+<span>Я тебя люблю</span>
+<span>Mon amour</span>
+<span>Te iubesc</span>
+<span>Eu te amo</span>
+<span>I love you</span>
+<span>Mi amor</span>
+</div>
+
+<div class="declaracoes-laterais direita">
+<span>Forever yours</span>
+<span>Te amo</span>
+<span>Люблю тебя</span>
+<span>Ich liebe dich</span>
+<span>Ti amo tanto</span>
+<span>Je t'adore</span>
+<span>Seni seviyorum</span>
+<span>愛してる</span>
+<span>My love</span>
+<span>사랑해</span>
+<span>Eu te amo</span>
+<span>Te quiero mucho</span>
+<span>Mon cœur</span>
+<span>I love you</span>
+<span>Amore mio</span>
+</div>
+    <div class="caixa-senha">
+      <div class="decoracao-senha">
+    <span>✦</span>
+    <span class="coracao-senha">♡</span>
+    <span>✧</span>
+</div>
+
+<h1>Nosso cantinho</h1>
+
+<p class="frase-senha">
+    Algumas datas ficam marcadas para sempre.
+    A nossa começa aqui. ♡
+</p>
+
+        <p>Qual é a nossa data especial?</p>
+
+        <input
+            type="password"
+            id="senhaEntrada"
+            placeholder="Digite a senha..."
+        >
+
+        <button id="botaoEntrar">Entrar ♡</button>
+
+        <p id="mensagemSenha"></p>
+    </div>
+</div>
+    <video class="video-fundo" autoplay muted loop playsinline>
+    <source src="video/video.mp4" type="video/mp4">
+</video>
+
+<div class="ceu-estrelado"></div>
+<div class="poeira-galaxia"></div>
+<div class="nebulosa"></div>
+    <h1>Ana Luisa & Giulia! ∞</h1> 
+    <div class="musica">
+
+    <div class="topo-musica">
+        <span>TOCANDO AGORA</span>
+        <span>♡</span>
+    </div>
+
+    <div class="info-musica">
+        <img src="imagens/foto4.jpeg" alt="Nossa foto">
+
+        <div>
+            <h3 id="nomeMusica">Bagunça</h3>
+<p id="artistaMusica">Carol Biazin</p>
+            <small>Nossa música 💗</small>
+        </div>
+    </div>
+
+    <audio id="audioMusica">
+        <source src="musicas/10. BAGUNÇA.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="controles">
+        <div class="lista-musicas">
+
+<div class="controle-amor">
+    <h3>Quanto você me ama? ♡</h3>
+
+    <div class="valor-amor" id="valorAmor">0%</div>
+
+    <input
+        type="range"
+        id="volumeMusica"
+        min="0"
+        max="100"
+        value="100"
+    >
+
+    <p id="mensagemAmor">
+        Eu sabia que era tudo isso! 💗
+    </p>
+</div>
+
+    <h3>Nossa playlist ♡</h3>
+    <div id="itensPlaylist"></div>
+</div>
+    <button id="musicaAnterior">⏮</button>
+    <button id="botaoPlay">▶</button>
+    <button id="proximaMusica">⏭</button>
+
+    <span id="tempoMusica">0:00</span>
+    <input type="range" id="progresso" value="0" min="0" max="100">
+</div>
+
+</div>
+<div class="galeria-circular">
+    <canvas id="galeriaCanvas"></canvas>
+</div>
+    <p>Preparei uma surpresa especial para você...</p>
+
+   
+
+  
+<p id="surpresa"></p>
+
+<button class="botao-presente" onclick="abrirPresente()">
+    Abrir meu presente 💗
+</button>
+<section class="mensagens-carinho">
+    <h2>Um carinho para você ♡</h2>
+
+ <div class="caixinha-carinho">
+    <svg class="gatinho-andando" viewBox="0 0 100 65" xmlns="http://www.w3.org/2000/svg">
+    <!-- Cauda -->
+    <path d="M20 40 Q2 35 12 18 Q18 10 22 20"
+          fill="none" stroke="white" stroke-width="6"
+          stroke-linecap="round"/>
+
+    <!-- Corpo -->
+    <ellipse cx="48" cy="42" rx="28" ry="15" fill="white"/>
+
+    <!-- Cabeça -->
+    <circle cx="75" cy="29" r="17" fill="white"/>
+
+    <!-- Orelhas -->
+    <path d="M63 17 L64 2 L76 14 Z" fill="white"/>
+    <path d="M77 14 L89 3 L91 20 Z" fill="white"/>
+    <path d="M66 12 L66 7 L72 13 Z" fill="#ff8fab"/>
+    <path d="M82 13 L88 8 L87 16 Z" fill="#ff8fab"/>
+
+    <!-- Olhinhos e nariz -->
+    <circle cx="70" cy="29" r="1.8" fill="#54204f"/>
+    <circle cx="82" cy="29" r="1.8" fill="#54204f"/>
+    <path d="M75 34 Q77 37 79 34" fill="none"
+          stroke="#ff8fab" stroke-width="1.5"/>
+
+    <!-- Patinhas -->
+    <path d="M31 49 L29 60 M45 51 L44 60 M61 51 L63 60 M72 44 L76 57"
+          stroke="white" stroke-width="5" stroke-linecap="round"/>
+</svg>
+
+    <span class="icone-carinho">♡</span>
+    <p id="mensagemAleatoria">
+        Tenho um carinho esperando por você...
+    </p>
+
+    <button id="botaoCarinho">
+        Abrir meu carinho 💌
+    </button>
+</div>
+</section>
+
+<section class="cartinhas" id="secaoCartinhas" style="display: none;">
+
+    <h2>Cartinhas para você 💌</h2>
+    <p>Uma cartinha para cada dia até o seu aniversário.</p>
+
+    <h3>Novembro ❤️</h3>
+    <div id="calendarioNovembro" class="calendario"></div>
+
+    <h3>Dezembro 💜</h3>
+    <div id="calendarioDezembro" class="calendario"></div>
+
+</section>
+
+<!-- JANELINHA DA CARTINHA -->
+<div id="janelaCartinha" class="janela-cartinha">
+    <div class="conteudo-cartinha">
+
+        <div class="coracao-cartinha">💗</div>
+
+        <h2 id="tituloCartinha">Uma cartinha para você</h2>
+
+        <p id="dataCartinha"></p>
+
+        <div id="textoCartinha">
+            Ainda estou preparando essa cartinha... ❤️
+        </div>
+
+        <button onclick="fecharCartinha()">
+            Fechar cartinha 💌
+        </button>
+
+    </div>
+</div>
+
+
+</section> 
+
+<div class="musica">
+    <div class="topo-musica">
+        <span>TOCANDO AGORA</span>
+        <span>♡</span>
+    </div>   
+
+    </div>
+    <script src="script.js"></script>
+   <script src="galeria-fotos.js" defer></script>
+</body>
+</html>
